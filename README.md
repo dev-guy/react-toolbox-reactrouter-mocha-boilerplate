@@ -1,40 +1,48 @@
-# react-toolbox, react-router, mocha, karma, and react-hot-loader boilerplate
+# A modern but minimal starter kit for React
 
-## Getting Started
+- [x] Google Material Design via React Toolkit
+- [x] React Router 2
+- [x] Webpack
+- [x] React Hot Loader 3
+- [x] CSS with SASS
+- [x] Mocha and Karma for Testing
+- [x] All modules used are the latest as of July 17 2016
+
+# TODO
+* Add ESLint loader to webpack config after fixing jsx code
+
+# Getting Started
 1. Clone this repository
 2. npm install
 
-## Prepare for running npm package scripts during development
-1. cd to this
-2. . add-path
+# Development
 
-This script adds the node_modules/.bin directory to your PATH
+## Prepare your command line environment (optional)
+* . add-path
 
-## Development
+* add-path adds the node_modules/.bin directory to your PATH so you can run commands like 'eslint' from the command line
+* "npm run" does this for you
 
-### lint your js files
-npm run eslint
+## lint your js files
+* npm run eslint
+* eslint, unlike sass-lint, is run automatically by Webpack
 
-Note: eslint, unlike sass-lint, is run automatically by webpack
+## lint your sass files
+* npm run sass-lint
+* eslint, unlike sass-lint, is run automatically by Webpack
 
-### lint your sass files
-npm run sass-lint
+## lint everything
+* npm run lint
 
-Note: eslint, unlike sass-lint, is run automatically by webpack
+## Run tests
+* npm test
 
-### lint everything
-npm run lint
-
-### Run tests
-npm test
-
-### Start Development Server
+## Start Development Server
 1. npm start
 2. Visit http://localhost:8080 in your browser
 
-## Deployment
+# Deploy
 1. npm run build
-Note: This also runs sass-lint
+* This also runs lint
 2. Copy the files in the 'build' directory to 'public' root folder on your web server
 3. Copy the files in the 'www' directory to your web server
-
