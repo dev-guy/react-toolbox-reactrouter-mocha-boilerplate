@@ -9,7 +9,7 @@
 - [x] Use the latest npm modules available on 2016 July 17
 
 # TODO
-* Add ESLint loader to webpack config after fixing jsx code
+- [ ] Add ESLint loader to webpack config after fixing jsx code
 
 # Getting Started
 1. Clone this repository
