@@ -1,0 +1,12 @@
+# USAGE
+#
+# . /some/directory/add-path
+#
+# This script adds node_modules/.bin to the PATH for running commands like sass-lint manually.
+# "npm run-script" does this for you.
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+PATH=.:$DIR/node_modules/.bin:$PATH
+echo $PATH
+

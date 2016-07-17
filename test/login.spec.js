@@ -9,7 +9,7 @@ import { render } from 'react-dom';
 import chai from 'chai';
 import createHistory from 'history/lib/createMemoryHistory';
 
-import {browserHistory, Router, Route, Link } from 'react-router';
+import {browserHistory, Router, Route, Link, useRouterHistory } from 'react-router';
 
 import LoginForm from '../src/components/login';
 const expect = chai.expect;
@@ -17,8 +17,10 @@ const expect = chai.expect;
 let loginForm;
 let node;
 
+const history = useRouterHistory(createHistory)('/login');
+
 //TODO: make react-router warnings dissapear
-const loginFormElem = (<Router history={createHistory('/login')} >
+const loginFormElem = (<Router history={history} >
 		     <Route path="/login" component={LoginForm} />
 		     </Router>);
 

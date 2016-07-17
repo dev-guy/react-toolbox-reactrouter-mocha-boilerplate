@@ -1,29 +1,27 @@
-const path = require('path');
-const express = require('express');
 const webpack = require('webpack');
+const WebpackDevServer = require('webpack-dev-server');
 const config = require('./webpack.config');
+const path = require('path');
 
-const app = express();
-const compiler = webpack(config);
-
-app.use(require('webpack-dev-middleware')(compiler, {
+const server =
+new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
+  hot: true,
+  historyApiFallback: true,
   stats: {
     colors: true
   }
-}));
+});
 
-app.use(require('webpack-hot-middleware')(compiler));
-
-app.get('*', (req, res) => {
+server.app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './www/index.html'));
 });
 
-app.listen(8080, '0.0.0.0', (err) => {
+server.listen(8080, 'localhost', function (err) {
   if (err) {
     console.log(err);
-    return;
   }
 
-  console.log('Listening at http://0.0.0.0:8080');
+  console.log('Listening at localhost:8080');
 });
+
