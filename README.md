@@ -1,4 +1,4 @@
-# Modern Minimal Starter Kit for React SPAs
+# Minimal Starter Kit for Modern React Web Applications
 
 - [x] Google Material Design via React Toolkit
 - [x] React Router 2
