@@ -7,7 +7,7 @@ import style from './style';
 import {IconMenu, MenuItem, MenuDivider } from 'react-toolbox';
 
 const MainMenu = () => (
-  <IconMenu icon='more_vert' position='top-left' menuRipple>
+  <IconMenu icon='more_vert' position='topLeft' menuRipple>
     <MenuItem value='download' icon='get_app' caption='Download' />
     <MenuItem value='help' icon='favorite' caption='Favorite' />
     <MenuItem value='settings' icon='open_in_browser' caption='Open in app' />
