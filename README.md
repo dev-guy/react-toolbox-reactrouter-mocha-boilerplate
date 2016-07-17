@@ -1,12 +1,12 @@
-# A modern but minimal starter kit for React
+# Modern Minimal Starter Kit for React SPAs
 
 - [x] Google Material Design via React Toolkit
 - [x] React Router 2
-- [x] Webpack
 - [x] React Hot Loader 3
+- [x] Webpack 1.x
 - [x] CSS with SASS
 - [x] Mocha and Karma for Testing
-- [x] All modules used are the latest as of July 17 2016
+- [x] Use the latest npm modules available on 2016 July 17
 
 # TODO
 * Add ESLint loader to webpack config after fixing jsx code
