@@ -20,16 +20,13 @@
 ## Prepare your command line environment (optional)
 * source add-path
 
-- add-path adds the node_modules/.bin directory to your PATH so you can run commands like 'eslint' from the command line
-- "npm run" does this for you
+add-path adds the node_modules/.bin directory to your PATH so you can run commands like 'eslint' from the command line. "npm run" does this for you.
 
 ## lint your js files
-* npm run eslint
-- eslint, unlike sass-lint, is run automatically by Webpack
+* npm run eslint (eslint, unlike sass-lint, is run automatically by Webpack)
 
 ## lint your sass files
-* npm run sass-lint
-- eslint, unlike sass-lint, is run automatically by Webpack
+* npm run sass-lint (eslint, unlike sass-lint, is run automatically by Webpack)
 
 ## lint everything
 * npm run lint
@@ -42,7 +39,6 @@
 2. Visit http://localhost:8080 in your browser
 
 # Deploy
-1. npm run build
-* This also runs lint
+1. npm run build (this also runs lint)
 2. Copy the files in the 'build' directory to 'public' root folder on your web server
 3. Copy the files in the 'www' directory to your web server
