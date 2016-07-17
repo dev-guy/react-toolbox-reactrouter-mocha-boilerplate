@@ -1,4 +1,4 @@
-# React-toolbox, react-router, karma mocha, and react-hot-loader boilerplate.
+# react-toolbox, react-router, mocha, karma, and react-hot-loader boilerplate
 
 ## Getting Started
 1. Clone this repository

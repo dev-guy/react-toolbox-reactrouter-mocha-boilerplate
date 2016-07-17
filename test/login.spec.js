@@ -19,7 +19,6 @@ let node;
 
 const history = useRouterHistory(createHistory)('/login');
 
-//TODO: make react-router warnings dissapear
 const loginFormElem = (<Router history={history} >
 		     <Route path="/login" component={LoginForm} />
 		     </Router>);

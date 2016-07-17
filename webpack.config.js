@@ -32,7 +32,10 @@ module.exports = {
     loaders: [
       {
         test: /(\.js|\.jsx)$/,
-        include: path.join(__dirname, 'src'),
+        include: [
+            path.join(__dirname, 'src'),
+            path.join(__dirname, 'test')
+        ],
         loader: 'babel'
       },
 // { test: /(\.js|\.jsx)$/, exclude: ["node_modules", "build"], loader: 'eslint-loader' },
