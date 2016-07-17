@@ -18,18 +18,18 @@
 # Development
 
 ## Prepare your command line environment (optional)
-* . add-path
+* source add-path
 
-* add-path adds the node_modules/.bin directory to your PATH so you can run commands like 'eslint' from the command line
-* "npm run" does this for you
+- add-path adds the node_modules/.bin directory to your PATH so you can run commands like 'eslint' from the command line
+- "npm run" does this for you
 
 ## lint your js files
 * npm run eslint
-* eslint, unlike sass-lint, is run automatically by Webpack
+- eslint, unlike sass-lint, is run automatically by Webpack
 
 ## lint your sass files
 * npm run sass-lint
-* eslint, unlike sass-lint, is run automatically by Webpack
+- eslint, unlike sass-lint, is run automatically by Webpack
 
 ## lint everything
 * npm run lint
