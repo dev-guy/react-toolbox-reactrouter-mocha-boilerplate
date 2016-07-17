@@ -2,7 +2,6 @@
 
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import ToolboxApp from 'react-toolbox/lib/app';
 import Button from 'react-toolbox/lib/button';
 import { browserHistory, Router, Route, Link } from 'react-router';
 

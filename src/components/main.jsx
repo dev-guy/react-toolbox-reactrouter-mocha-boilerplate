@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import ToolboxApp from 'react-toolbox/lib/app';
 import Button from 'react-toolbox/lib/button';
 import Navigation from 'react-toolbox/lib/navigation';
 
@@ -30,7 +29,7 @@ class MainContainer extends Component {
   render(){
 	
 	return (		
-		<ToolboxApp>
+		<div>
 		  <Header>
 		    <div> some content here</div>
 		  </Header>
@@ -39,7 +38,7 @@ class MainContainer extends Component {
 		    {this.props.children || <DashBoard />}
 		  </section>
 		  <Button label='Button' />
-		</ToolboxApp>
+		</div>
 	);
     }
 }
