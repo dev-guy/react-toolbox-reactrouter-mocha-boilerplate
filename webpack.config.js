@@ -7,9 +7,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   context: __dirname,
-  // devtool: 'inline-source-map',
+  devtool: 'inline-source-map',
 
-  devtool: 'eval',
+  // devtool: 'eval',
   entry: [
       'webpack-dev-server/client?http://localhost:8080',
       'webpack/hot/only-dev-server',
