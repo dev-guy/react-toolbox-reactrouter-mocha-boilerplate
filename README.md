@@ -1,11 +1,11 @@
 # Minimal Starter Kit for Modern React Web Applications
 
-- [x] Google's Material Design look and feel via React Toolbox
+- [x] Material Design via React Toolbox
 - [x] React Router 2
 - [x] React Hot Loader 3
 - [x] Webpack 1.x
 - [x] Sass
-- [x] Mocha and Karma, for Testing
+- [x] Testing via Mocha, Chai, and Karma
 - [x] Use latest npm modules available as of July 17 2016
 
 # Supported Platforms
