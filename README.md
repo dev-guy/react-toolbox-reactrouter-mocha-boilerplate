@@ -4,7 +4,7 @@
 - [x] React Router 2
 - [x] React Hot Loader 3
 - [x] Webpack 1.x
-- [x] SASS
+- [x] Sass
 - [x] Mocha and Karma, for Testing
 - [x] Use the latest npm modules available on 2016 July 17
 
