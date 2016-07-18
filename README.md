@@ -6,7 +6,7 @@
 - [x] Webpack 1.x
 - [x] Sass
 - [x] Mocha and Karma, for Testing
-- [x] Use latest npm modules available as of 2016 July 17
+- [x] Use latest npm modules available as of July 17 2016
 
 # Supported Platforms
 
