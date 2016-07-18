@@ -5,7 +5,9 @@ class MainNavigation extends Component{
 
   constructor(props, context) { 
     super(props, context);
-    context.router;
+
+    context.router; // What?
+
     this.handleClick = this.handleClick.bind(this);
     this.actions =  [
       { label: 'Alarm', raised: true, icon: 'access_alarm', onClick:this.handleClick },
@@ -24,7 +26,7 @@ class MainNavigation extends Component{
   render () {
     return (
       <div>
-	<Navigation type='horizontal' actions={this.actions} />
+    <Navigation type='horizontal' actions={this.actions} />
       </div>
     );
   }
@@ -32,6 +34,10 @@ class MainNavigation extends Component{
 
 MainNavigation.contextTypes = {
     router: React.PropTypes.object.isRequired
+};
+
+MainNavigation.propTypes = {
+    context: React.PropTypes.object
 };
 
 export default MainNavigation;

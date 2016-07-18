@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import style from './style';
 import App from './app';
 import {AppContainer} from 'react-hot-loader';
+import './style';
 
 const div = document.createElement('div');
 document.body.appendChild(div);

@@ -14,13 +14,13 @@ class MainDrawer extends Component {
     this.handleRoute = this.handleRoute.bind(this);
     this.actions =  [
       { name: 'home', label: 'Home', 
-	raised: true, accent: true, 
-	icon: 'home', onClick:this.handleRoute},
+    raised: true, accent: true, 
+    icon: 'home', onClick:this.handleRoute},
       { name: 'component1', label: 'Component1', 
-	raised: true, icon: 'save', 
-	onClick: this.handleRoute},
+    raised: true, icon: 'save', 
+    onClick: this.handleRoute},
       { name: 'component2', label: 'Component2', raised: true, icon: 'people', 
-	onClick: this.handleRoute},
+    onClick: this.handleRoute},
     ];
     this.state = {active: false};
     this.handleToggle = this.handleToggle.bind(this);
@@ -30,7 +30,7 @@ class MainDrawer extends Component {
     this.setState({active: !this.state.active});
   }
 
-  handleRoute(options, callback) {
+  handleRoute(options) { // , callback
     if (options.target.name == 'home'){
       this.context.router.push('/');
     }else if (options.target.name == 'component1'){
@@ -43,10 +43,10 @@ class MainDrawer extends Component {
   render () {
     return (
       <div>
-	<Button icon='menu' raised accent onClick={this.handleToggle} />
-	<Drawer active={this.state.active} onOverlayClick={this.handleToggle}>
-	<Navigation type='horizontal' actions={this.actions} />
-	</Drawer>
+    <Button icon='menu' raised accent onClick={this.handleToggle} />
+    <Drawer active={this.state.active} onOverlayClick={this.handleToggle}>
+    <Navigation type='horizontal' actions={this.actions} />
+    </Drawer>
       </div>
     );
   }

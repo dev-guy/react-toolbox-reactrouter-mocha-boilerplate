@@ -1,19 +1,18 @@
 import React, {Component} from 'react';
-import Button from 'react-toolbox/lib/button';
 
 class Component2 extends Component{
   
   constructor(props, context) {
-	super(props, context);
-	context.router;
+    super(props, context);
+    context.router;
     }
 
     render () {
-	return (
-		<div>
-		<h5>Component 2</h5>		
-		</div>
-	);
+    return (
+        <div>
+        <h5>Component 2</h5>        
+        </div>
+    );
   }
 }
 

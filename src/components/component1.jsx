@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Button from 'react-toolbox/lib/button';
 
 class Component1 extends Component{
 
@@ -11,9 +10,9 @@ class Component1 extends Component{
   render () {
     return (
       <div>
-	<h5>
-	 Component 1
-	</h5>
+    <h5>
+     Component 1
+    </h5>
       </div>
     );
   }
