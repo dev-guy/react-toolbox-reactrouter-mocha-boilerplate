@@ -8,9 +8,6 @@
 - [x] Mocha and Karma, for Testing
 - [x] Use the latest npm modules available on 2016 July 17
 
-# TODO
-- [ ] Add ESLint loader to webpack config after fixing jsx code
-
 # Supported Platforms
 
 This project will only work on Unix-like systems like OSX and Linux. In other words, it will not work on Windows.
