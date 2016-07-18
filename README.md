@@ -1,6 +1,6 @@
 # Minimal Starter Kit for Modern React Web Applications
 
-- [x] Google's Material Design look and feel via React Toolkit
+- [x] Google's Material Design look and feel via React Toolbox
 - [x] React Router 2
 - [x] React Hot Loader 3
 - [x] Webpack 1.x
