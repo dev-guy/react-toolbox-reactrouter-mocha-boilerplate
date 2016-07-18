@@ -11,6 +11,10 @@
 # TODO
 - [ ] Add ESLint loader to webpack config after fixing jsx code
 
+# Supported Platforms
+
+This project will only work on Unix-like systems like OSX and Linux. In other words, it will not work on Windows.
+
 # Getting Started
 1. Clone this repository
 2. npm install
