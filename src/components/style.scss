@@ -1,7 +1,6 @@
-@import "~react-toolbox/lib/_globals";
-// @import "~react-toolbox/lib/colors";
-@import "~react-toolbox/lib/app_bar/config";
-@import "~react-toolbox/lib/button/config";
+@import '~react-toolbox/lib/globals';
+@import '~react-toolbox/lib/app_bar/config';
+@import '~react-toolbox/lib/button/config';
 
 $title-font-size: 1.8 * $unit;
 
@@ -18,8 +17,8 @@ $title-font-size: 1.8 * $unit;
 
   > .button {
     position: absolute;
-    top: $appbar-height - ($button-floating-height / 2);
     right: $button-floating-height / 2;
+    top: $appbar-height - ($button-floating-height / 2);
     z-index: $z-index-higher;
   }
 }
