@@ -43,3 +43,4 @@ add-path adds the node_modules/.bin directory to your PATH so you can run comman
 1. npm run build (this also runs lint)
 2. Copy the files in the 'build' directory to 'public' root folder on your web server
 3. Copy the files in the 'www' directory to your web server
+4. Make sure your web server serves index.html for every request. Watch [this](https://www.youtube.com/watch?v=cdUyEou0LHg) for more information.
