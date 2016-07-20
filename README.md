@@ -14,8 +14,8 @@ This project will only work on Unix-like systems like OSX and Linux. In other wo
 
 1. add-path, which is optional, is a shell script
 2. sass-lint doesn't have a Webpack loader so I had to improvise something that uses find
-3. fsevents, which is a dependency of an unknown module, doesn't run on Windows
-4. Some of the scripts in project.json use && to run multiple commands
+3. Some of the scripts in project.json use && to run multiple commands
+4. fsevents, which is a dependency of an unknown module, doesn't run on Windows. It's possible that this is no longer an issue.
 
 # Getting Started
 1. Clone this repository
