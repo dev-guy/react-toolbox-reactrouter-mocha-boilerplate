@@ -3,7 +3,7 @@
 - [x] Material Design via React Toolbox
 - [x] React Router 2
 - [x] React Hot Loader 3
-- [x] Webpack 1.x
+- [x] Webpack 1.x and Babel 6
 - [x] Sass
 - [x] Testing via Mocha, Chai, and Karma
 - [x] Use latest npm modules available as of July 17 2016
@@ -14,7 +14,7 @@ This project will only work on Unix-like systems like OSX and Linux. In other wo
 
 1. add-path, which is optional, is a shell script
 2. sass-lint doesn't have a Webpack loader so I had to improvise something that uses find
-3. One of the various npm modules produces an error message on Windows when installing via npm. Sorry, I don't remember which. I'll provide more details later.
+3. fsevents, which is a dependency of an unknown module, doesn't run on Windows
 4. Some of the scripts in project.json use && to run multiple commands
 
 # Getting Started
