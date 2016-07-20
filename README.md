@@ -3,7 +3,8 @@
 - [x] Material Design via React Toolbox
 - [x] React Router 2
 - [x] React Hot Loader 3
-- [x] Webpack 1.x and Babel 6
+- [x] Webpack 1.x
+- [x] Babel 6 (ES7 class properties, babel-runtime, babel-polyfill)
 - [x] Sass
 - [x] Lint for ES6 and Sass
 - [x] Testing via Mocha, Chai, and Karma
