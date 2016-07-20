@@ -4,9 +4,9 @@
 - [x] React Router 2
 - [x] React Hot Loader 3
 - [x] Webpack 1.x
-- [x] Babel 6 (ES7 class properties, babel-runtime, babel-polyfill)
+- [x] Babel 6 configured for ES7
 - [x] Sass
-- [x] Lint for ES6 and Sass
+- [x] eslint and sass-lint
 - [x] Testing via Mocha, Chai, and Karma
 - [x] Use latest npm modules available as of July 17 2016
 
