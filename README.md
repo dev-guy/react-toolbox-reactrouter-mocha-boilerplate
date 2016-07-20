@@ -4,7 +4,7 @@
 - [x] React Router 2
 - [x] React Hot Loader 3
 - [x] Webpack 1.x
-- [x] Babel 6 configured for ES7
+- [x] Babel 6 configured for ES2015
 - [x] Sass
 - [x] eslint and sass-lint
 - [x] Testing via Mocha, Chai, and Karma
