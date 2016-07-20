@@ -5,6 +5,7 @@
 - [x] React Hot Loader 3
 - [x] Webpack 1.x and Babel 6
 - [x] Sass
+- [x] Lint for ES6 and Sass
 - [x] Testing via Mocha, Chai, and Karma
 - [x] Use latest npm modules available as of July 17 2016
 
