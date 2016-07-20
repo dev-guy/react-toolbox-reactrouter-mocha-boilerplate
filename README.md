@@ -10,7 +10,11 @@
 
 # Supported Platforms
 
-This project will only work on Unix-like systems like OSX and Linux. In other words, it will not work on Windows.
+This project will only work on Unix-like systems like OSX and Linux. In other words, it will not work on Windows because:
+
+1. add-path, which is optional, is a shell script
+2. sass-lint doesn't have a Webpack loader so I had to build something that uses find
+3. One of the various npm modules produces an error message on Windows when installing via npm. Sorry, I don't remember which. I'll provide more details later.
 
 # Getting Started
 1. Clone this repository
