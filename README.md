@@ -7,7 +7,7 @@
 - [x] Babel 6 configured for ES2015
 - [x] Sass
 - [x] eslint and sass-lint
-- [x] Testing via Mocha, Chai, and Karma
+- [x] Test early and often via [Mocha] (https://www.toptal.com/react/how-react-components-make-ui-testing-easy), Chai, and Karma
 - [x] Use latest npm modules available as of July 17 2016
 
 # Supported Platforms
