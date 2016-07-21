@@ -45,7 +45,7 @@ add-path adds the node_modules/.bin directory to your PATH so you can run comman
 ## Run tests
 * npm test
 
-## Start Development Server
+## Run the app
 1. npm start
 2. Visit http://localhost:8080 in your browser
 
