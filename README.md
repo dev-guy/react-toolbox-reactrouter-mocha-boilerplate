@@ -3,14 +3,15 @@
 - [x] Material Design via React Toolbox
 - [x] React Router 2
 - [x] React Hot Loader 3
+- [x] Production build uglifies/minifies all JavaScript
 - [x] Webpack 1.x
 - [x] Babel 6 configured for ES2015
 - [x] Sass
 - [x] eslint and sass-lint
-- [x] Test early and often via [Mocha] (https://www.toptal.com/react/how-react-components-make-ui-testing-easy), Chai, and Karma
+- [x] Test with [Mocha] (https://www.toptal.com/react/how-react-components-make-ui-testing-easy), Chai, and Karma
 - [x] Use latest npm modules available as of July 17 2016
 
-# See the unexciting [Live demo](https://dev-guy.github.io/react-toolbox-reactrouter-mocha-boilerplate)
+# View the [Live demo](https://dev-guy.github.io/react-toolbox-reactrouter-mocha-boilerplate)
 
 # Supported Platforms
 
