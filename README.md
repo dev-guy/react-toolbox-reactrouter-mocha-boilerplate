@@ -1,6 +1,6 @@
 # Minimal Starter Kit for Modern React Web Applications
 
-- [x] Material Design via React Toolbox
+- [x] Material Design via [React Toolbox](http://react-toolbox.com)
 - [x] React Router 2
 - [x] React Hot Loader 3
 - [x] Production build uglifies/minifies all JavaScript
@@ -12,6 +12,10 @@
 - [x] Use latest npm modules available as of July 17 2016
 
 # View the [Live demo](https://dev-guy.github.io/react-toolbox-reactrouter-mocha-boilerplate)
+
+# See Also
+
+* [Official React Toolbox Example](https://github.com/react-toolbox/react-toolbox-example)
 
 # Supported Platforms
 
@@ -53,5 +57,5 @@ add-path adds the node_modules/.bin directory to your PATH so you can run comman
 
 1. npm run build (this also runs lint)
 2. Copy the file www/index.html to your web server
-3. Copy the files in the 'build' directory to your web server in a directory named 'public' that is located in the same directory as index.html
+3. Copy the files in the 'build' directory to your web server in the same directory where index.html is located
 
