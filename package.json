@@ -1,8 +1,8 @@
 {
   "name": "react-toolbox-starter-kit",
   "description": "Modern React starter kit for Google Material Design",
-  "version": "0.9.0",
-  "author": "Dev-Guy <devguy@devguy.com>, building on work by demian florentin <demian@sinergetica.com>",
+  "version": "1.0.0",
+  "author": "Dev-Guy <devguy@devguy.com>, building on work by Demian Florentin <demian@sinergetica.com>",
   "keywords": [
     "react",
     "react-router",

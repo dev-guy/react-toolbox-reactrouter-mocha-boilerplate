@@ -11,9 +11,9 @@ class LoginForm extends Component {
     this.submitForm = this.submitForm.bind(this);
   }
   
-  //handleChange(name, value){
-    // let d = this.state[name]= value;
-  //};
+  handleChange(name, value){
+    let d = this.state[name]= value;
+  };
 
   submitForm (){
     console.log('submit form');
