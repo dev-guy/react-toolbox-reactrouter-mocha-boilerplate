@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { browserHistory, Router, Route } from 'react-router';
+import { hashHistory, Router, Route } from 'react-router';
 
 import MainContainer from './components/main';
 import Component1 from './components/component1';
@@ -21,7 +21,7 @@ export default class App extends Component {
 
   render(){
     return (
-    <Router  history={browserHistory}>
+    <Router history={hashHistory}>
     <Route path="/" component={MainContainer} >
       <Route path="/component1" component={Component1} />
       <Route path="/component2" component={Component2}/>

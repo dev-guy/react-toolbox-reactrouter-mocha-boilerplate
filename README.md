@@ -10,6 +10,8 @@
 - [x] Test early and often via [Mocha] (https://www.toptal.com/react/how-react-components-make-ui-testing-easy), Chai, and Karma
 - [x] Use latest npm modules available as of July 17 2016
 
+# See the unexciting [Live demo](https://dev-guy.github.io/react-toolbox-reactrouter-mocha-boilerplate)
+
 # Supported Platforms
 
 This project will only work on Unix-like systems like OSX and Linux. In other words, it will not work on Windows because:
@@ -46,8 +48,9 @@ add-path adds the node_modules/.bin directory to your PATH so you can run comman
 1. npm start
 2. Visit http://localhost:8080 in your browser
 
-# Deploy
+# Production
+
 1. npm run build (this also runs lint)
-2. Copy the files in the 'build' directory to 'public' root folder on your web server
+2. Copy the files in the 'build' directory to your web server under the directory public
 3. Copy the files in the 'www' directory to your web server
-4. In order for React Router to work, make sure your web server serves index.html for every request. Watch [this](https://www.youtube.com/watch?v=cdUyEou0LHg) for more information.
+

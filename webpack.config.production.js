@@ -7,12 +7,8 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   context: __dirname,
-  devtool: 'inline-source-map',
-  // devtool: 'eval',
+  devtool: 'cheap-module-source-map',
   entry: [
-      'webpack-dev-server/client?http://localhost:8080',
-      'webpack/hot/only-dev-server',
-      'react-hot-loader/patch',
       './src/index'
   ],
   output: {
@@ -38,8 +34,8 @@ module.exports = {
         loader: 'babel',
         query: {
             "presets": ["es2015-loose", "stage-0", "react"],
-            "plugins": ["transform-runtime", "react-hot-loader/babel"]
-        }
+            "plugins": ["transform-runtime"]
+        }       
       },
       { test: /(\.js|\.jsx)$/, exclude: ["node_modules", "build"], loader: 'eslint-loader' },
 	  {
@@ -55,10 +51,16 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('react-toolbox.css', { allChunks: true }),
-    new webpack.HotModuleReplacementPlugin(),
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify('development')
-    })
+      'process.env.NODE_ENV': JSON.stringify('production')
+    }),
+    // keeps hashes consistent between compilations
+    // new webpack.optimize.OccurenceOrderPlugin(),
+    // // minifies your code
+    new webpack.optimize.UglifyJsPlugin({
+        compressor: {
+        warnings: false
+    } })  
   ]
 };
 
