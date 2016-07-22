@@ -1,4 +1,4 @@
-# Minimal Starter Kit for Modern React Web Applications
+# A minimal Starter Kit for Modern React Web Applications
 
 - [x] Material Design via [React Toolbox](http://react-toolbox.com)
 - [x] React Router 2
