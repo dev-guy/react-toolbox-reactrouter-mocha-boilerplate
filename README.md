@@ -11,7 +11,7 @@
 - [x] Test with [Mocha] (https://www.toptal.com/react/how-react-components-make-ui-testing-easy), Chai, and Karma
 - [x] Use latest npm modules available as of July 17 2016
 
-# View the [Live demo](https://dev-guy.github.io/react-toolbox-reactrouter-mocha-boilerplate)
+# Visit the [Live demo](https://dev-guy.github.io/react-toolbox-reactrouter-mocha-boilerplate)
 
 # See Also
 
